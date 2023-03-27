@@ -1,0 +1,110 @@
+#banner_part{
+    margin:100px 0;
+}
+
+.banner_left{
+    margin:21% 0 0 13%;
+}
+
+.banner_left h1 span{
+    display: inline-block;
+}
+.banner_left p{
+    padding-top: 35px;
+    font-size: 18px;
+    color:rgba(0, 0, 0, 0.5);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-bottom: 36px;
+}
+.banner_left a{
+    border: 1px solid var(--primary-color);
+    padding:10px 39px;
+    color: var(--primary-color);
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+.banner_right img {
+    width: 100%;
+    margin-left: 90px;
+}
+
+
+@media(min-width:992px) and (max-width:1199.98px){
+    /* banner part */
+   .banner_left h1{
+        font-size: 36px;
+    }
+    .banner_left p {
+        padding-top: 21px;
+        font-size: 16px;
+    }
+}
+
+@media(min-width:768px) and (max-width:991.98px){
+     .banner_left {
+        margin: 90px 0 0 0;
+    }
+  .banner_left h1{
+        font-size: 30px;
+        line-height: 49px;
+    }
+    .banner_left p {
+        padding-top: 14px;
+        font-size: 15px;
+    }
+    .banner_right img {
+        margin-left:0px;
+    }
+
+}
+
+@media (min-width:576px) and (max-width:767.98px){
+     #banner_part {
+        margin:80px 0 80px 0;
+    }
+    .banner_left {
+        margin:0 20px 60px 20px;
+    }
+    .banner_left p {
+        font-size: 16px;
+        padding-top: 25px;
+    }
+    .banner_right img {
+        margin-left:0;
+    }
+.banner_rows{
+    flex-direction: column-reverse;
+}
+}
+
+@media (max-width:575.98px){
+   #banner_part {
+        margin: 50px 0 70px 0;
+    }
+    .banner_left {
+        margin:0 20px 60px 20px;
+    }
+   .banner_left h1 {
+        font-size: 28px;
+        line-height: 45px;
+    }
+    .banner_left p {
+        padding-top: 18px;
+        font-size: 15px;
+    }
+    .banner_left a {
+        padding: 8px 32px;
+        font-size: 16px;
+    }
+    .banner_right img {
+        margin-left:0;
+    }
+    .banner_right img {
+        padding-bottom: 40px;
+    }
+    #banner_part .row{
+        flex-direction: column-reverse;
+    }  
+}

@@ -1,0 +1,567 @@
+.dreamer_header{
+    margin:100px 0;
+}
+.dreamer_header h2{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 10px;
+}
+.dreamer_header p{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+.dreamer_header p span{
+    display: inline-block;
+}
+.story_left img{
+    width: 100%;
+}
+.story_right p{
+    width: 92%;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+}
+.story_btn a{
+    background-color: var(--primary-color);
+    color: var(--tartiary-color);
+    padding:9px 20px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 50px;
+}
+.story_right{
+    margin:70px 0 0 10px;
+}
+.story_btn{
+    margin-bottom: 60px;
+}
+/* we dreamer part css */
+
+/* our mission part css */
+#our_mission{
+    background-color: #D9D9D9;
+    padding:75px 0 60px 0;
+    margin: 80px 0;
+}
+.our_mission_item{
+    margin-left: 30px;
+}
+.our_mission_item a{
+    background: var(--primary-color);
+    padding: 9px 23px;
+    color: var(--tartiary-color);
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    
+}
+.our_mission_item p{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    width:79%;
+    margin-top: 46px;
+}
+.our_mission_item p span{
+    font-size: 44px;
+}
+
+/* our mission part css */
+
+/* our vision part css */
+.our_vision_part{
+    text-align: right;
+}
+.our_vision_part a{
+    background: var(--primary-color);
+    padding: 9px 23px;
+    color: var(--tartiary-color);
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+}
+.our_vision_part p{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    width:70%;
+    margin-top: 46px;
+    text-align: right;
+    margin-left: 30%;
+}
+.our_vision_part p span{
+    font-size: 44px;
+}
+/* our vision part css */
+
+
+/* our philosophy part css */
+#philosophy_part{
+    margin: 100px 0;
+    background: #D9D9D9;
+    padding: 50px 0;
+}
+.philosophy_item{
+    margin-left: 45px;
+}
+.philo_item{
+    margin: 20px 0;
+}
+.philo_item p{
+    font-size: 27px;
+    line-height: 35px;
+    font-weight: 500;
+    width: 88%;
+    letter-spacing: 2px;
+}
+.philo_item img{
+    max-width:40px;
+    height: 30px;
+    margin-right: 20px;
+}
+.philo_btn{
+    padding-bottom: 20px;
+}
+.philo_btn a{
+    background: var(--primary-color);
+    padding: 10px 20px;
+    color: var(--tartiary-color);
+    font-size: 26px;
+    line-height: 48px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+/* our philosophy part css */
+
+/* feature follow part css */
+.feature_btn{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.feature_btn a{
+    background: var(--primary-color);
+    padding: 9px 20px;
+    color: var(--tartiary-color);
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.feature_item{
+    padding-bottom: 20px;
+}
+.feature_item img{
+    max-width:40px;
+    height: 30px;
+    margin:8px 20px 0 0;
+}
+.feature_item p{
+    font-size: 27px;
+    line-height: 35px;
+    font-weight: 500;
+    width: 69%;
+}
+
+/* hossain part */
+.features_main{
+    margin-left: 42px;
+}
+.feature_content h5{
+    color:rgba(41, 46, 49, 0.76);
+}
+.feature_content p{
+ color: rgba(41, 46, 49, 0.76);
+}
+.feature_follow_item{
+    margin-bottom: 60px;
+}
+
+.hossain_main{
+    margin-bottom: 50px;
+}
+
+@media(min-width:992px) and (max-width:1199.98px){
+    .dreamer_header {
+        margin: 100px 0 80px 0px;
+    }
+    .dreamer_header p {
+        font-size: 23px;
+        line-height: 32px;
+        font-size: 19px;
+    }
+    .story_right p {
+        width: 100%;
+        font-size: 13px;
+        line-height: 25px;
+    }
+    .story_btn {
+        margin-bottom: 30px;
+    }
+    .story_btn a {
+        font-size: 20px;
+    }
+    .mission_margin{
+        margin-left: 0;
+    }
+
+    .our_mission_item p {
+        font-size: 18px;
+        line-height: 33px;
+        width: 100%;
+        margin-top: 35px;
+    }
+    .our_mission_item a {
+        font-size: 22px;
+        line-height: 39px;
+    }
+    .vision_margins{
+        margin-left: 0;
+    }
+    .our_vision_part {
+        text-align: left;
+        margin-left: 31px;
+    }
+    .our_vision_part a {
+        font-size: 24px;
+    }
+    .our_vision_part p {
+        font-size: 21px;
+        width: 100%;
+        margin-top: 35px;
+        text-align: left;
+        margin-left: 0%;
+    }
+    #philosophy_part {
+        margin: 60px 0;
+    }
+    .philosophy_mars{
+        margin-left: 0;
+    }
+    .philosophy_item {
+        margin-left: 30px;
+    }
+    .philo_item p {
+        font-size: 20px;
+        line-height: 32px;
+        width: 100%;
+    }
+    .feature_margins{
+        margin-left: 0;
+    }
+    .feature_btn {
+        text-align: left;
+        margin: 70px 0px 40px 40px;
+    }
+    .feature_btn a {
+        font-size: 24px;
+    }
+    .feature_item p {
+        font-size: 20px;
+        line-height: 43px;
+        width: 100%;
+    }
+}
+
+@media(min-width:768px) and (max-width:991.98px){
+     .dreamer_header {
+        margin: 100px 0 50px 0;
+    }
+    .dreamer_margins{
+        margin-left: 0;
+    }
+    .dreamer_header h2 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .dreamer_header p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .story_margin{
+        margin-left: 0;
+    }
+    .story_btn {
+        margin-bottom: 30px;
+    }
+    .story_btn a {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .story_right p {
+        width: 100%;
+        font-size: 11px;
+        line-height: 30px;
+    }
+    .story_left img {
+        margin-top: 25px;
+    }
+    .mission_margin{
+        margin-left: 0;
+    }
+    .our_mission_item a {
+        font-size: 22px;
+        line-height: 20px;
+    }
+    .our_mission_item p {
+        font-size: 21px;
+        line-height: 36px;
+        width: 100%;
+    }
+    .vision_margins{
+        margin-left: 0;
+    }
+    .our_vision_part {
+        text-align: left;
+    }
+    .our_vision_part p {
+        font-size: 20px;
+        line-height: 34px;
+        width: 100%;
+        text-align: left;
+        margin-left: 0%;
+    }
+    .our_vision_part a {
+        font-size: 22px;
+        line-height: 20px;
+    }
+    #philosophy_part {
+        margin: 60px 0;
+    }
+    .philosophy_mars{
+        margin-left: 0;
+    }
+    .philo_btn a {
+        font-size: 22px;
+        line-height: 40px;
+    }
+
+    .philo_item p {
+        font-size: 18px;
+        line-height: 33px;
+        width: 100%;
+    }
+    .feature_margins{
+        margin-left: 0;
+    }
+    .feature_btn a {
+        font-size: 23px;
+        line-height: 26px;
+    }
+    .feature_btn {
+        text-align: left;
+        margin: 0 0 40px 43px;
+    }
+    .feature_item p {
+        font-size: 18px;
+        line-height: 35px;
+        width: 100%;
+    }
+    .hossain_mars{
+        margin-left: 0;
+    }
+}
+
+@media (min-width:576px) and (max-width:767.98px){
+.dreamer_margins{
+    margin-left: 0;
+}
+.dreamer_header h2 {
+	font-size: 40px;
+	line-height: 51px;
+}
+.dreamer_header {
+	margin: 80px 0;
+}
+.dreamer_header p {
+	font-size: 16px;
+	line-height: 27px;
+}
+.story_margin{
+    margin-left: 0;
+}
+.story_btn {
+	margin-bottom: 40px;
+	text-align: center;
+}
+.story_right p {
+	width: 100%;
+	font-size: 17px;
+}
+.mission_margin{
+    margin-left: 0;
+}
+.our_mission_item p {
+	width: 100%;
+}
+.vision_margins{
+    margin-left: 0;
+}
+.our_vision_part {
+	text-align: left;
+}
+.our_vision_part p {
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 36px;
+	width: 100%;
+	text-align: center;
+	margin-left: 0%;
+}
+.our_vision_part a{
+    margin-left: 40px;
+}
+.philosophy_mars{
+    margin-left: 0;
+}
+.philosophy_item {
+	margin-left: 15px;
+}
+.philo_item p {
+	font-size: 23px;
+	line-height: 35px;
+	width: 100%;
+}
+.feature_margins{
+    margin-left: 0;
+}
+.feature_btn a {
+	padding: 9px 20px;
+	font-size: 24px;
+	line-height: 20px;
+}
+.feature_item p {
+	font-size: 22px;
+	width: 100%;
+}
+.hossain_mars{
+    margin-left: 0;
+}
+.banner_right img {
+    padding-bottom: 40px;
+}
+}
+
+@media (max-width:575.98px){
+    .dreamer_header {
+	margin: 70px 0;
+}
+.dreamer_margins{
+    margin-left: 0;
+}
+.dreamer_header h2 {
+	font-size: 34px;
+	line-height: 51px;
+}
+.dreamer_header p {
+	font-size: 15px;
+	line-height: 24px;
+}
+.dreamer_header p span{
+    display: inline;
+}
+
+.story_margin{
+    margin-left: 0;
+}
+.story_right {
+	margin: 42px 0 0 10px;
+    text-align: center;
+}
+.story_btn a {
+	padding: 9px 26px;
+	font-size: 20px;
+	font-weight: 500;
+	margin-bottom: 30px;
+}
+.story_right p {
+	width: 100%;
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 30px;
+	font-family: 'Playfair Display', serif;
+	letter-spacing: 0;
+}
+.mission_margin{
+    margin-left: 0;
+}
+.our_mission_item a {
+    padding: 9px 26px;
+	font-size: 20px;
+	font-weight: 500;
+line-height: 20px;
+}
+.our_mission_item p {
+	font-size: 15px;
+	line-height: 29px;
+	width: 100%;
+}
+.vision_margins{
+    margin-left: 0;
+}
+.story_right {
+	margin: 42px 0 0 5px;
+}
+.our_vision_part {
+	text-align: center;
+}
+.our_vision_part p {
+	font-size: 17px;
+	line-height: 33px;
+	width: 100%;
+	text-align: center;
+	margin-left: 0%;
+}
+.philosophy_mars{
+    margin-left: 0;
+}
+
+.philo_btn a {
+	padding: 10px 27px;
+	font-size: 18px;
+}
+.philosophy_item {
+	margin-left: 15px;
+}
+.philo_item p {
+	font-size: 17px;
+	line-height: 32px;
+	width: 100%;
+	letter-spacing: 1px;
+}
+
+.feature_margins{
+    margin-left: 0;
+}
+.feature_btn {
+	margin-bottom: 40px;
+}
+.feature_btn a {
+	padding: 9px 20px;
+	font-size: 22px;
+	line-height: 23px;
+}
+.features_main {
+	margin-left: 19px;
+}
+.feature_item p {
+	font-size: 17px;
+	line-height: 30px;
+	width: 100%;
+}
+.hossain_mars{
+    margin:0 5px;
+}
+.philosophy_item {
+	margin-left: 10px;
+}
+}
